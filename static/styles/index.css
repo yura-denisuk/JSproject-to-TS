@@ -1,0 +1,66 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "air-datepicker/air-datepicker.css";
+
+body {
+    overflow-x: hidden;
+}
+
+.dropdown-item {
+    color: #0D6EFD;
+}
+
+.dropdown-item:hover {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.nav-link-color {
+    color: #052C65;
+}
+
+.nav-link-color:hover {
+    color: #052C65;
+}
+
+@keyframes rotate-svg-on {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rotate-svg-off {
+    0% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.text-color {
+    color: #052C65;
+}
+
+.cost-item {
+    width: 352px;
+    min-height: 121px;
+}
+
+.content-date-input {
+    width: 100px;
+}
+
+.form-input {
+    width: 397px;
+    height: 38px;
+}
+
+.form-select {
+    width: 397px;
+    height: 38px;
+}
+
+

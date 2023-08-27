@@ -1,0 +1,38 @@
+<section class="content-main col-10 mt-5 pt-5 ms-5 ps-3">
+  <h1 class="mb-5 text-color">
+    Главная
+  </h1>
+  <div class="content-buttons d-flex flex-nowrap pb-5 mb-5">
+    <button type="button" id="button-default" class="btn btn-filter btn-outline-secondary px-3 py-2 me-3 active">Сегодня</button>
+    <button type="button" class="btn btn-filter btn-outline-secondary px-3 py-2 me-3">Неделя</button>
+    <button type="button" class="btn btn-filter btn-outline-secondary px-3 py-2 me-3">Месяц</button>
+    <button type="button" class="btn btn-filter btn-outline-secondary px-4 py-2 me-3">Год</button>
+    <button type="button" class="btn btn-filter btn-outline-secondary px-4 py-2 me-3">Все</button>
+    <button type="button" id="button-interval" class="btn btn-filter btn-outline-secondary px-2 py-2 me-3" disabled>Интервал</button>
+    <div class="content-dates d-flex flex-nowrap">
+      <div class="content-date d-flex flex-nowrap">
+        <label for="with" class="content-date-label fw-bold pt-2 me-3">с</label>
+        <input type="text" class="content-date-input p-2 form-control me-3" id="with"
+               placeholder="Дата">
+      </div>
+      <div class="content-date d-flex flex-nowrap">
+        <label for="before" class="content-date-label fw-bold pt-2 me-3">по</label>
+        <input type="text" class="content-date-input p-2 form-control" id="before" placeholder="Дата">
+      </div>
+    </div>
+  </div>
+  <div class="content-diagrams mt-5 d-flex">
+    <div class="content-diagram-profit ms-5 me-5">
+      <h3 class="content-diagram-profit-title text-color text-center">
+        Доходы
+      </h3>
+      <canvas id="myChart-profit"></canvas>
+    </div>
+    <div class="content-diagram-cost ms-5">
+      <h3 class="content-diagram-cost-title text-color text-center">
+        Расходы
+      </h3>
+      <canvas id="myChart-cost"></canvas>
+    </div>
+  </div>
+</section>
